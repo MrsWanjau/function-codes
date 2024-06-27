@@ -1,4 +1,4 @@
-QUESTION ONE
+#QUESTION ONE
 #Design a function that reverses the digits of an integer. For exampe, 50 should become 5 and -12 should become -21 
 def reverse_integer(x):
     # Convert integer to string
@@ -18,7 +18,7 @@ def reverse_integer(x):
 
 print(reverse_integer(12345))
 
-QUESTION TWO
+#QUESTION TWO
 #Write a recursive function to calculate factorial of a number
 def factorial(n):
     # Base case: factorial of 0 is 1
@@ -30,7 +30,7 @@ def factorial(n):
 
 print(factorial(10))
 
-QUESTION THREE
+#QUESTION THREE
 #Design a function that takes a string or sequence of characters as input and returns the character that appears most frequently            
 //Eg 11189=>'1'                
 //hello =>l
@@ -62,7 +62,7 @@ def most_frequent_char(input_string):
 
 print(most_frequent_char('11189'))  
 
-QUESTION FOUR
+#QUESTION FOUR
 #Design a function that determines whether a given string is a pangram. A pangram is a sentence or phrase containing every letter of the alphabet at at least once . Punctuation and case are typically ignore. For example the string "The quick brown fox jumps over the lazy dog" is a pangram, while "Hello, world!" is not
 import string
 
@@ -83,7 +83,7 @@ def is_pangram(input_string):
 print(is_pangram("The quick brown fox jumps over the lazy dog")) 
 print(is_pangram("Hello, world!"))  
 
-QUESTION FIVE
+#QUESTION FIVE
 #Design a function that takes a list of integers as input.The function should return true if the list contains two consecutive threes(3 next to 3)anywhere within the list.Otherwise, it should return false.For example, the function should return true for [1,3,3] AND FALSE FOR [1,3,1,3]
 def has_two_consecutive_threes(nums):
     # Iterate through the list up to the second last element
@@ -97,7 +97,7 @@ def has_two_consecutive_threes(nums):
 print(has_two_consecutive_threes([1, 3, 3]))     # Output:
 print(has_two_consecutive_threes([1, 3, 1, 3]))  # Output:
 
-QUESTION SIX
+#QUESTION SIX
 #Master Yoda a renowed Jedi Master from the Star Wars universe, is known for his unique way of speaking.He often reverses the order of words in his sentences. For example instead of saying "i am home" he might say "home am i" Design a function that takes a sentence as input and and returns a new sentense with the words reversed in the same order that Master Yoda would use
 def reverse_sentence(sentence):
     # Split the sentence into words
